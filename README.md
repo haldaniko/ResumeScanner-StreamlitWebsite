@@ -12,9 +12,10 @@ This is a Streamlit web application for an Applicant Tracking System (ATS) Resum
 
 ## Installation
 
+#### Manual
 ```
-git clone https://github.com/your_username/ResumeScunner-StreamlitWebsite.git
-cd ResumeScunner-StreamlitWebsite
+git clone https://github.com/your_username/ResumeScanner-StreamlitWebsite.git
+cd ResumeScanner-StreamlitWebsite
 
 # on macOS
 python3 -m venv venv
@@ -30,4 +31,16 @@ pip install -r requirements.txt
 
 streamlit run app.py
 ```
+#### Docker
+``` 
+git clone https://github.com/your_username/ResumeScanner-StreamlitWebsite.git
+cd ResumeScanner-StreamlitWebsite
+
+docker-compose build
+docjer-compose up
+```
+
 Application will be available at http://localhost:8501
+
+## Demo
+![demo.png](demo.png)
