@@ -1,3 +1,5 @@
+import os
+
 import streamlit as st
 import json
 import google.generativeai as genai
@@ -5,8 +7,11 @@ import fitz
 import io
 import base64
 from PIL import Image
+from dotenv import load_dotenv
 
-genai.configure(api_key="AIzaSyAujYRUD6SWpr2VP5_3wwWH1njosiiEC2I")
+load_dotenv()
+
+genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 
 @st.cache_data()
