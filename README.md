@@ -31,9 +31,3 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 Application will be available at http://localhost:8501
-
-## Usage
-Open the Streamlit app in your browser.
-Input the job description in the text area provided.
-Upload the PDF resume using the "Upload your resume(PDF)..." button.
-Click on the desired action buttons to perform various analyses.
