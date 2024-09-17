@@ -96,7 +96,6 @@ if submit1:
     if st.session_state.resume is not None:
         pdf_content = input_pdf_setup(st.session_state.resume)
         response = get_gemini_response(input_prompt1, pdf_content, input_text)
-        st.subheader("The Response is")
         st.write(response)
     else:
         st.write("Please upload the resume")
@@ -117,7 +116,6 @@ elif submit3:
     if st.session_state.resume is not None:
         pdf_content = input_pdf_setup(st.session_state.resume)
         response = get_gemini_response(input_prompt3, pdf_content, input_text)
-        st.subheader("The Response is")
         st.write(response)
     else:
         st.write("Please upload the resume")
