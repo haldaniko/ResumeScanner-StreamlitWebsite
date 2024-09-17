@@ -43,5 +43,5 @@ docjer-compose up
 Application will be available at http://localhost:8501
 
 ### Demo
-![demo_0.png](demo_0.png)
-![demo_1.png](demo_1.png)
+![demo_0.png](demo/demo_0.png)
+![demo_1.png](demo/demo_1.png)
