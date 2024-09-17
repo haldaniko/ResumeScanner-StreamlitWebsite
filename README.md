@@ -1,8 +1,8 @@
-# ATS Resume Scanner
+## ATS Resume Scanner
 
 This is a Streamlit web application for an Applicant Tracking System (ATS) Resume Scanner. It allows users to upload a PDF resume and a job description, and then provides various analyses based on the uploaded documents.
 
-## Features
+### Features
 
 - **Upload PDF Resume**: Users can upload their resume in PDF format.
 - **Input Job Description**: Users can input the job description in a text area.
@@ -10,7 +10,7 @@ This is a Streamlit web application for an Applicant Tracking System (ATS) Resum
 - **Get Keywords**: Identifies specific skills and keywords necessary for the resume to have maximum impact, provided in JSON format.
 - **Percentage Match**: Evaluates the percentage match of the resume with the job description, along with keywords missing and final thoughts.
 
-## Installation
+### Installation
 
 #### Manual
 ```
@@ -42,5 +42,6 @@ docjer-compose up
 
 Application will be available at http://localhost:8501
 
-## Demo
-![demo.png](demo.png)
+### Demo
+![demo_0.png](demo_0.png)
+![demo_1.png](demo_1.png)
