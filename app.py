@@ -83,9 +83,13 @@ necessary to maximize the impact of the resume and provide response in json form
 Note: Please do not make up the answer only answer from job description provided"""
 
 input_prompt3 = """
-You are a skilled ATS (Applicant Tracking System) scanner with a deep understanding of data science and ATS functionality, 
-your task is to evaluate the resume against the provided job description. Give me the percentage of match if the resume matches
-the job description. First the output should come as percentage and then keywords missing and last final thoughts.
+You are a highly proficient Applicant Tracking System (ATS) scanner with advanced knowledge in data science, ATS algorithms, and resume analysis. Your task is to evaluate the resume based on the given job description and provide a detailed report. 
+
+1. First, provide the **percentage match** between the resume and the job description, taking into account relevant skills, experience, and qualifications.
+2. Next, identify any **missing or underrepresented keywords** and key competencies from the job description.
+3. Lastly, provide your **final analysis** on the resume's overall suitability for the position, offering suggestions for improvement if needed.
+
+Ensure your assessment is thorough and aligned with typical ATS evaluation criteria.
 """
 
 if submit1:
