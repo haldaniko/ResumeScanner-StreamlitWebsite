@@ -12,6 +12,8 @@ This is a Streamlit web application for an Applicant Tracking System (ATS) Resum
 
 ### Installation
 
+Please register your API key - https://ai.google.dev/
+
 #### Manual
 ```
 git clone https://github.com/your_username/ResumeScanner-StreamlitWebsite.git
@@ -36,8 +38,10 @@ streamlit run app.py
 git clone https://github.com/your_username/ResumeScanner-StreamlitWebsite.git
 cd ResumeScanner-StreamlitWebsite
 
+(create your .env file like .env.sample)
+
 docker-compose build
-docjer-compose up
+docker-compose up
 ```
 
 Application will be available at http://localhost:8501
