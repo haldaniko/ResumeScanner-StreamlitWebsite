@@ -16,7 +16,7 @@ Please register your API key - https://ai.google.dev/
 
 #### Manual
 ```
-git clone https://github.com/your_username/ResumeScanner-StreamlitWebsite.git
+git clone https://github.com/haldaniko/ResumeScanner-StreamlitWebsite.git
 cd ResumeScanner-StreamlitWebsite
 
 # on macOS
